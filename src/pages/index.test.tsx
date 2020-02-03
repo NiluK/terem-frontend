@@ -11,7 +11,7 @@ describe('Home Page', () => {
     act(() => {
       render(<Home />);
     });
-    expect(global.fetch).toHaveBeenCalledTimes(2);
+    expect((global as any).fetch).toHaveBeenCalledTimes(2);
   });
   it('matches snapshot', () => {
     let container;

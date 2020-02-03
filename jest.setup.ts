@@ -1,6 +1,6 @@
 import fetch from 'node-fetch';
 
-global.fetch = fetch;
+(global as any).fetch = fetch;
 
 const mockSuccessResponse = {
   data: [
