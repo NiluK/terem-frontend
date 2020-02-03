@@ -42,7 +42,7 @@ export const withRestrictedImageHeight = () => {
   );
 };
 
-export const withRestrictedImageWidthandHeight = () => {
+export const withRestrictedImageWidthAndHeight = () => {
   return (
     <Card
       img={'http://placehold.it/350x350'}
