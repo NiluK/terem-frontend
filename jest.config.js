@@ -1,4 +1,10 @@
 module.exports = {
   preset: 'ts-jest',
-  testEnvironment: 'node',
+  verbose: true,
+  testEnvironment: 'jsdom',
+  globals: {
+    'ts-jest': {
+      babelConfig: '.babelrc',
+    },
+  },
 };
