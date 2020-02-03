@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   display: inline-flex;
-  background: #f3f6fa;
-  border: 2px solid #f1f2f5;
+  background: ${(props): string => props.theme.colors.card};
+  border: 2px solid ${(props): string => props.theme.colors.border};
 `;
 
 export const Image = styled.img`
@@ -20,13 +20,13 @@ export const Title = styled.h3`
   font-size: 12px;
   margin: 0;
   margin-bottom: 2px;
-  color: #7a91a2;
+  color: ${(props): string => props.theme.colors.primary};
 `;
 
 export const Location = styled.p`
   font-size: 12px;
   margin: 0;
-  color: #8e9fb5;
+  color: ${(props): string => props.theme.colors.secondary};
   display: flex;
   align-items: flex-start;
 `;

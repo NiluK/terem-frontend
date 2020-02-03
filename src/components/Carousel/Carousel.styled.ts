@@ -5,10 +5,7 @@ export const CarouselContainer = styled.div`
   position: relative;
   grid-gap: 20px;
   max-width: 100%;
-  grid-template-columns: repeat(2, 1fr);
-  @media screen and (min-width: 995px) {
-    grid-template-columns: repeat(4, 1fr);
-  }
+  grid-template-columns: repeat(4, 1fr);
   overflow: hidden;
 `;
 

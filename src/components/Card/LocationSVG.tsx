@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const SVG = styled.svg`
-  fill: #7a91a2;
+  fill: ${(props): string => props.theme.colors.primary};
   height: 12px;
   width: 12px;
   margin-right: 2px;

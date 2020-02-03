@@ -6,7 +6,7 @@ import theme from '../../config/theme';
 
 const GlobalStyle = createGlobalStyle`
   body {
-    background: #ECEFF4;
+    background: ${theme.colors.background};
     font-family: sans-serif;
   }
 `;
