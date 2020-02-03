@@ -22,10 +22,12 @@ const Card = (props: Card): JSX.Element => {
         />
         <Styled.Info>
           <Styled.Title>{props.title}</Styled.Title>
-          <Styled.Location>
-            <LocationSVG />
-            {props.location}
-          </Styled.Location>
+          {props.location && (
+            <Styled.Location>
+              <LocationSVG />
+              {props.location}
+            </Styled.Location>
+          )}
         </Styled.Info>
       </div>
     </Styled.Wrapper>
