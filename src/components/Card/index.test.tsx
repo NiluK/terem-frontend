@@ -19,6 +19,10 @@ describe('Card Structure', () => {
     );
   });
 
+  it('matches snapshot', () => {
+    expect(container).toMatchSnapshot();
+  });
+
   it('renders title', () => {
     expect(container.getByText(title)).toBeInTheDocument();
   });
