@@ -24,7 +24,7 @@ const Carousel = (props: Carousel): JSX.Element => {
     setCarouselStop(carouselStop - 1);
   };
 
-  const renderedItems = children.slice(carouselStart, carouselStop);
+  const renderedItems = children?.slice(carouselStart, carouselStop);
 
   return (
     <Styled.CarouselContainer>

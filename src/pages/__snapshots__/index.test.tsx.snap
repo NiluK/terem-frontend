@@ -1,0 +1,284 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Page matches snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="indexstyled__Container-jgrox8-0 bmfNvj"
+      >
+        <div
+          class="indexstyled__InputContainer-jgrox8-3 efSyFt"
+        >
+          <input
+            class="indexstyled__Input-jgrox8-4 jHNWKS"
+            data-testid="input"
+            placeholder="Search for..."
+          />
+        </div>
+        <div
+          class="indexstyled__Content-jgrox8-1 gPkkuT"
+        >
+          <h2
+            class="indexstyled__Heading-jgrox8-2 keabaB"
+          >
+            Popular around you
+          </h2>
+          <div
+            class="Carouselstyled__CarouselContainer-sc-10aqm96-0 cYCoPc"
+          >
+            <div
+              class="Cardstyled__Wrapper-ke0us1-0 hsPdPI"
+            >
+              <div>
+                <img
+                  alt=""
+                  class="Cardstyled__Image-ke0us1-1 hlRFwS"
+                  height="130"
+                  src=""
+                />
+                <div
+                  class="Cardstyled__Info-ke0us1-2 iIHUUS"
+                >
+                  <h3
+                    class="Cardstyled__Title-ke0us1-3 efbcG"
+                  />
+                  <p
+                    class="Cardstyled__Location-ke0us1-4 jZRXLE"
+                  >
+                    <svg
+                      class="LocationSVG__SVG-sc-6iwt52-0 dNhYWG"
+                      data-testid="location-svg"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"
+                      />
+                    </svg>
+                    
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="Carouselstyled__Button-sc-10aqm96-1 eOHtfr"
+              data-testid="next-button"
+            >
+              〉
+            </button>
+          </div>
+          <h2
+            class="indexstyled__Heading-jgrox8-2 keabaB"
+          >
+            Featured
+          </h2>
+          <div
+            class="indexstyled__FeaturedContainer-jgrox8-5 iMLPZp"
+            width="160"
+          >
+            <div
+              class="Cardstyled__Wrapper-ke0us1-0 hsPdPI"
+            >
+              <div>
+                <img
+                  alt=""
+                  class="Cardstyled__Image-ke0us1-1 dmxrzx"
+                  height="155"
+                  src=""
+                />
+                <div
+                  class="Cardstyled__Info-ke0us1-2 iIHUUS"
+                >
+                  <h3
+                    class="Cardstyled__Title-ke0us1-3 efbcG"
+                  />
+                  <p
+                    class="Cardstyled__Location-ke0us1-4 jZRXLE"
+                  >
+                    <svg
+                      class="LocationSVG__SVG-sc-6iwt52-0 dNhYWG"
+                      data-testid="location-svg"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"
+                      />
+                    </svg>
+                    
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="indexstyled__Container-jgrox8-0 bmfNvj"
+    >
+      <div
+        class="indexstyled__InputContainer-jgrox8-3 efSyFt"
+      >
+        <input
+          class="indexstyled__Input-jgrox8-4 jHNWKS"
+          data-testid="input"
+          placeholder="Search for..."
+        />
+      </div>
+      <div
+        class="indexstyled__Content-jgrox8-1 gPkkuT"
+      >
+        <h2
+          class="indexstyled__Heading-jgrox8-2 keabaB"
+        >
+          Popular around you
+        </h2>
+        <div
+          class="Carouselstyled__CarouselContainer-sc-10aqm96-0 cYCoPc"
+        >
+          <div
+            class="Cardstyled__Wrapper-ke0us1-0 hsPdPI"
+          >
+            <div>
+              <img
+                alt=""
+                class="Cardstyled__Image-ke0us1-1 hlRFwS"
+                height="130"
+                src=""
+              />
+              <div
+                class="Cardstyled__Info-ke0us1-2 iIHUUS"
+              >
+                <h3
+                  class="Cardstyled__Title-ke0us1-3 efbcG"
+                />
+                <p
+                  class="Cardstyled__Location-ke0us1-4 jZRXLE"
+                >
+                  <svg
+                    class="LocationSVG__SVG-sc-6iwt52-0 dNhYWG"
+                    data-testid="location-svg"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"
+                    />
+                  </svg>
+                  
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="Carouselstyled__Button-sc-10aqm96-1 eOHtfr"
+            data-testid="next-button"
+          >
+            〉
+          </button>
+        </div>
+        <h2
+          class="indexstyled__Heading-jgrox8-2 keabaB"
+        >
+          Featured
+        </h2>
+        <div
+          class="indexstyled__FeaturedContainer-jgrox8-5 iMLPZp"
+          width="160"
+        >
+          <div
+            class="Cardstyled__Wrapper-ke0us1-0 hsPdPI"
+          >
+            <div>
+              <img
+                alt=""
+                class="Cardstyled__Image-ke0us1-1 dmxrzx"
+                height="155"
+                src=""
+              />
+              <div
+                class="Cardstyled__Info-ke0us1-2 iIHUUS"
+              >
+                <h3
+                  class="Cardstyled__Title-ke0us1-3 efbcG"
+                />
+                <p
+                  class="Cardstyled__Location-ke0us1-4 jZRXLE"
+                >
+                  <svg
+                    class="LocationSVG__SVG-sc-6iwt52-0 dNhYWG"
+                    data-testid="location-svg"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"
+                    />
+                  </svg>
+                  
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
